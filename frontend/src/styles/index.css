@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui;
+}
+
+.question {
+  filter: blur(6px);
+}
+
+.question:hover {
+  filter: blur(0px);
+}
